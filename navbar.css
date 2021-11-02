@@ -175,13 +175,13 @@ nav .content .links{
   }
   .content .links li a{
     padding: 8px 13px;
-    color: white;
+    color: #196478;
   }
   .wrapper .search-box{
     max-width: calc(100% - 100px);
   }
   nav .content .links a.desktop-link  {
-      color: white;
+      color:#196478;
   }
   .wrapper .search-box input{
     padding: 0 100px 0 15px;
