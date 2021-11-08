@@ -174,12 +174,12 @@ nav .content .links{
 
 
 /* Responsive code start */
-/* @media screen and (max-width: 1460px) and  (min-width: 900px){
+@media screen and (max-width: 1460px) and  (min-width: 900px){
     .content .links li a{
         padding: 4px 6px;
         color: #196478;
-      } */
-
+      }
+    }
 @media screen and (max-width: 1250px){
   .wrapper nav{
     max-width: 100%;
@@ -207,6 +207,9 @@ nav .content .links{
   .wrapper .menu-icon{
     display: block;
   }
+  /* .content .logo a{
+      margin-left: 145px;
+  } */
   .wrapper #show-menu:checked ~ .menu-icon i::before{
     content: "\f00d";
   }
@@ -289,4 +292,5 @@ nav .content .links{
     padding-right: 30px;
   }
 }
+
 
