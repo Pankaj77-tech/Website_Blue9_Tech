@@ -939,11 +939,22 @@ blockquote {
 .dropdown-item:hover + .dropdown-menu,
 .dropdown-menu:hover {
   display: block;
-}.engine {
+}
+.engine {
 	position: absolute;
 	text-indent: -2400px;
 	text-align: center;
 	padding: 0;
 	top: 0;
 	left: -2400px;
+}
+
+.heads{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 95%; /* Full width */
+  padding: 20px; /* Some padding */
 }
