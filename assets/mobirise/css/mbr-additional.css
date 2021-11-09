@@ -670,6 +670,44 @@ a:hover {
     color: #e85a4f;
 }
 
+.cid-sOgiMle6An {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+}
+
+.cid-sOgiMle6An .card-box {
+    z-index: 10;
+    position: relative;
+}
+
+@media (min-width: 1500px) {
+    .cid-sOgiMle6An .container {
+        max-width: 1400px;
+    }
+}
+
+.cid-sOgiMle6An .card {
+    margin: auto;
+}
+
+.cid-sOgiMle6An .mbr-iconfont {
+    display: block;
+    font-size: 5rem;
+    color: #6592e6;
+    margin-bottom: 2rem;
+}
+
+.cid-sOgiMle6An .card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cid-sOgiMle6An .row {
+    justify-content: center;
+}
+
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
     color: #ffffff;
