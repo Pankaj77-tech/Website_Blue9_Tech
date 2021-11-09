@@ -206,10 +206,13 @@ figure[mbr-media-size] {
   transition: width 0.1s;
 }
 
-img,
-iframe {
+img, iframe {
   display: block;
   width: 100%;
+}
+.images-container img, iframe {
+  display: block;
+  width: 50%;
 }
 
 .card {
