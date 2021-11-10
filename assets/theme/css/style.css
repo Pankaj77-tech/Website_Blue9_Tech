@@ -99,6 +99,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* section .gallery1-cid-sNB9WsVOEW{
+  background-image: url("/./assets/img/images/space.jpg")
+} */
 section .mbr-background-video,
 section .mbr-background-video-preview {
   position: absolute;
