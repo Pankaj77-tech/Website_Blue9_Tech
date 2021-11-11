@@ -725,7 +725,7 @@ a:hover {
 
 .cid-sNAcGyEhTX {
     padding-top: 2rem;
-    /* padding-bottom: 2rem; */
+    /* padding-bottom: 5rem; */
     background-image: url("../../../assets/images/background8.jpg");
 }
 
@@ -755,7 +755,8 @@ a:hover {
 .cid-sNAcUjcnZ9 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #fafafa;
+    /* background-color: green; */
+    height: auto;
 }
 
 .cid-sNAcUjcnZ9 .mbr-iconfont {
@@ -1090,9 +1091,10 @@ a {
     }
 }
 
-.cid-sNumVmjdvy {
-    /* background-color: #bed3f9; */
-}
+
+/* .cid-sNumVmjdvy {
+    background-color: #bed3f9;
+} */
 
 .cid-sNumVmjdvy .row {
     flex-direction: row-reverse;
@@ -1170,9 +1172,10 @@ a {
     }
 }
 
-.cid-sNunbJpva0 {
-    /* background-color: #bed3f9; */
-}
+
+/* .cid-sNunbJpva0 {
+    background-color: #bed3f9;
+} */
 
 .cid-sNunbJpva0 .row {
     flex-direction: row-reverse;
@@ -1315,4 +1318,12 @@ a {
     .cid-sNunlXlqcg div>*:last-child {
         margin-top: 0 !important;
     }
+}
+
+.cid-sOa73lxu4G {
+    background-image: url("/assets/img/images(service)/services page-01.png")
+}
+
+.cid-sOa76i7dma {
+    background-image: url("/assets/img/images(service)/services page-01.png")
 }
