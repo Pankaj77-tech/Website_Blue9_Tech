@@ -244,6 +244,15 @@ iframe {
     width: 100%;
 }
 
+.cid-sNAcUjcnZ9 .card-box {
+    transition: 0.3s;
+}
+
+.cid-sNAcUjcnZ9 .card-box:hover {
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
 .card-img {
     text-align: center;
     flex-shrink: 0;
