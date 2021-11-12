@@ -243,15 +243,18 @@ iframe {
 .card-box {
     width: 100%;
 }
-
-.cid-sNAcUjcnZ9 .card-box {
+ .cid-sOxpCuS3Dq{
+   position: fixed;
+   z-index: 0.9;
+}
+/*.cid-sOxpCuS3Dq .card-box {
     transition: 0.3s;
 }
 
-.cid-sNAcUjcnZ9 .card-box:hover {
+.cid-sOxpCuS3Dq .card-box:hover {
     font-size: 30px;
     transform: scale(1.1);
-}
+} */
 
 .card-img {
     text-align: center;
