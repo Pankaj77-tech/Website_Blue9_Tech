@@ -588,6 +588,7 @@ nav .content .links {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         padding-left: 50px;
+        color: #196478;
     }
     .center-statistic_number {
         font-size: 230px;

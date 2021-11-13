@@ -77,7 +77,8 @@ a {
     line-height: 1;
     word-break: break-word;
     word-wrap: break-word;
-    font-weight: 400;
+    color: #196478;
+    /* font-weight: 400; */
 }
 
 b,
@@ -102,7 +103,7 @@ section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgba(80, 80, 80, 0.5);
+    /* color: rgba(80, 80, 80, 0.5); */
 }
 
 section .mbr-background-video,
@@ -243,10 +244,13 @@ iframe {
 .card-box {
     width: 100%;
 }
- .cid-sOxpCuS3Dq{
-   position: fixed;
-   z-index: 0.9;
+
+.cid-sOxpCuS3Dq {
+    position: fixed;
+    z-index: 0.9;
 }
+
+
 /*.cid-sOxpCuS3Dq .card-box {
     transition: 0.3s;
 }
