@@ -396,7 +396,8 @@ nav .content .links {
 /*Gredient color css*/
 
 .gradient--color {
-    background-image: -webkit-linear-gradient(180deg, #FC8204 0%, #FFBC11 100%);
+    background-image: -webkit-linear-gradient(180deg, #196478 0%, #196478 100%);
+    /* color:#196478; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -437,7 +438,7 @@ nav .content .links {
 }
 
 .orange--text {
-    color: #FE790C !important;
+    color: #196478 !important;
 }
 
 .homepage-nav-container.container {
@@ -475,7 +476,7 @@ nav .content .links {
 }
 
 .orange--arrow g {
-    fill: #ff8833;
+    fill: #196478;
 }
 
 .statistics {
