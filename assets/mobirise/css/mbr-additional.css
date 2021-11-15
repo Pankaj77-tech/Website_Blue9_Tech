@@ -735,12 +735,13 @@ a:hover {
 
 .cid-sNAcGyEhTX {
     padding-top: 2rem;
+    background-color: rgb(59,93,168);
     /* padding-bottom: 5rem; */
-    background-image: url("../../../assets/images/background8.jpg");
+    /* background-image: url("../../../assets/img/images-service/analytics\ bgI.jpg"); */
 }
 
 .cid-sNAcGyEhTX .card-wrapper {
-    background: #ffffff;
+    background: rgba(25,100,120, 0.8); ;
     border-radius: 4px;
 }
 
