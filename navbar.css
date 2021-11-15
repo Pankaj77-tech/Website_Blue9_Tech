@@ -583,6 +583,7 @@ nav .content .links {
         padding: 70px 0;
         background-size: 66%;
         background-position-y: center;
+        opacity: 1;
     }
     .statistics_list {
         -webkit-box-flex: 0;
