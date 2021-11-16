@@ -71,7 +71,7 @@ h2 {
 }
 
 .box a {
-    color: #999;
+    color: #fff;
 }
 
 .h-box {
@@ -81,13 +81,13 @@ h2 {
 
 .b-footer {
     text-align: center;
-    color: #999;
+    color: #fff;
     padding-top: 50px;
 }
 
 .l-footer p {
     padding-right: 20%;
-    color: #999;
+    color: #fff;
 }
 
 @media screen and (min-width: 600px) {
