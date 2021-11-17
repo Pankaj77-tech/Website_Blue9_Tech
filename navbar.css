@@ -480,7 +480,7 @@ nav .content .links {
 }
 
 .statistics {
-    background: url("/assets/img/images/home\ bg.png") ;
+    /* background: url("/assets/img/images/home\ bg.png") ; */
     background-size: 225%;
     background-position-y: 0;
 }
