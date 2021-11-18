@@ -20,12 +20,12 @@
     margin: 100px auto 30px auto;
     display: flex;
     flex-wrap: wrap;
-    animation-name: serviceh;
+    animation-name: contact;
     /* animation-iteration-count: 1; */
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
-@keyframes serviceh {
+@keyframes contact {
     0% {
         opacity: 0;
     }
