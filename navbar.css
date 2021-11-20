@@ -462,10 +462,58 @@ nav .content .links {
     }
 }
 
-.section {
+/* .section {
     padding: 30px 0;
+    animation-name: Home;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+
+}
+@keyframes Home {
+
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+} */
+.statistics_heading{
+    animation-name: anim;
+    animation-duration: 3s;
+
+}
+@keyframes anim {
+
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
 }
 
+.statistics_container{
+    animation-name: anim;
+    animation-duration: 7s;
+    animation-direction:alternate;
+
+
+}@keyframes anim {
+
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
 .section .container {
     padding-left: 22px;
     padding-right: 22px;
