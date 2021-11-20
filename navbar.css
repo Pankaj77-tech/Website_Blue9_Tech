@@ -462,11 +462,11 @@ nav .content .links {
     }
 }
 
-/* .section {
+.center-statistic_number {
     padding: 30px 0;
     animation-name: Home;
     animation-iteration-count: 1;
-    animation-duration: 3s;
+    animation-duration: 10s;
 
 }
 @keyframes Home {
@@ -479,13 +479,31 @@ nav .content .links {
         opacity: 1;
     }
     
-} */
+}
+.center-statistic_content {
+    padding: 30px 0;
+    animation-name: Home;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+
+}
+@keyframes Home {
+
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
 .statistics_heading{
-    animation-name: anim;
+    animation-name: anime;
     animation-duration: 3s;
 
 }
-@keyframes anim {
+@keyframes anime {
 
     0%{
         opacity: 0;
