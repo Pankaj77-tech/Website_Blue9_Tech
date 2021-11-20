@@ -20,6 +20,18 @@
     margin: 100px auto 30px auto;
     display: flex;
     flex-wrap: wrap;
+    animation-name: contact;
+    /* animation-iteration-count: 1; */
+    animation-duration: 3s;
+}
+
+@keyframes contact {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .contact-in {

@@ -394,7 +394,7 @@ nav .mbr-section-btn {
     display: -ms-flex;
     display: -o-flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -1040,6 +1040,6 @@ blockquote {
     /* Grey text */
     width: 93%;
     /* Full width */
-    padding: 20px;
+    padding: 15px;
     /* Some padding */
 }
