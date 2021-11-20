@@ -501,7 +501,7 @@ nav .content .links {
 }
 
 @keyframes anime {
-    @keyframes anim {
+   
         0% {
             opacity: 0;
         }
