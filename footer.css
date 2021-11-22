@@ -37,7 +37,7 @@ header p {
 }
 
 .l-footer {
-    margin-right: 1.25em;
+    margin-right: 1em;
     margin-bottom: 2em;
 }
 
@@ -48,7 +48,7 @@ h2 {
 
 .footer ul {
     list-style: none;
-    padding-left: 0;
+    /* padding-left: 0; */
     font-size: 0.9rem;
 }
 
@@ -85,15 +85,15 @@ h2 {
     padding-top: 50px;
 }
 
-.l-footer p {
-    padding-right: 20%;
+.r-footer p {
+    /* padding-right: 20%; */
     color: #fff;
 }
 
 @media screen and (min-width: 600px) {
-    .r-footer>* {
+    /* .r-footer>* {
         flex: 1;
-    }
+    } */
     .features {
         flex-grow: 2;
     }
