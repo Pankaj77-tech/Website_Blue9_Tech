@@ -1041,6 +1041,6 @@ blockquote {
     /* Grey text */
     width: 93%;
     /* Full width */
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     /* Some padding */
 }
