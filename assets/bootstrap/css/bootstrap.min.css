@@ -3621,17 +3621,17 @@ fieldset:disabled .btn {
     border-radius: .2rem
 }
 
-.fade {
+.flip {
     transition: opacity .15s linear
 }
 
 @media (prefers-reduced-motion:reduce) {
-    .fade {
+    .flip {
         transition: none
     }
 }
 
-.fade:not(.show) {
+.flip:not(.show) {
     opacity: 0
 }
 
@@ -5661,13 +5661,13 @@ fieldset:disabled .btn {
     pointer-events: none
 }
 
-.modal.fade .modal-dialog {
+.modal.flip .modal-dialog {
     transition: transform .3s ease-out;
     transform: translate(0, -50px)
 }
 
 @media (prefers-reduced-motion:reduce) {
-    .modal.fade .modal-dialog {
+    .modal.flip .modal-dialog {
         transition: none
     }
 }
@@ -5722,7 +5722,7 @@ fieldset:disabled .btn {
     background-color: #000
 }
 
-.modal-backdrop.fade {
+.modal-backdrop.flip {
     opacity: 0
 }
 
@@ -6274,29 +6274,29 @@ fieldset:disabled .btn {
     transform: translateX(-100%)
 }
 
-.carousel-fade .carousel-item {
+.carousel-flip .carousel-item {
     opacity: 0;
     transition-property: opacity;
     transform: none
 }
 
-.carousel-fade .carousel-item-next.carousel-item-start,
-.carousel-fade .carousel-item-prev.carousel-item-end,
-.carousel-fade .carousel-item.active {
+.carousel-flip .carousel-item-next.carousel-item-start,
+.carousel-flip .carousel-item-prev.carousel-item-end,
+.carousel-flip .carousel-item.active {
     z-index: 1;
     opacity: 1
 }
 
-.carousel-fade .active.carousel-item-end,
-.carousel-fade .active.carousel-item-start {
+.carousel-flip .active.carousel-item-end,
+.carousel-flip .active.carousel-item-start {
     z-index: 0;
     opacity: 0;
     transition: opacity 0s .6s
 }
 
 @media (prefers-reduced-motion:reduce) {
-    .carousel-fade .active.carousel-item-end,
-    .carousel-fade .active.carousel-item-start {
+    .carousel-flip .active.carousel-item-end,
+    .carousel-flip .active.carousel-item-start {
         transition: none
     }
 }
