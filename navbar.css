@@ -452,7 +452,7 @@
         padding: 30px 0;
         animation-name: Home;
         animation-iteration-count: 1;
-        animation-duration: 10s;
+        animation-duration: 4s;
     }
     
     @keyframes Home {
@@ -490,7 +490,7 @@
     
     .statistics_container {
         animation-name: anime;
-        animation-duration: 7s;
+        animation-duration: 4s;
         animation-direction: alternate;
     }
     

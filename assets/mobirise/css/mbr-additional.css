@@ -12,19 +12,19 @@ body {
     line-height: 1.1;
     color: #196478;
     text-align: left;
-    animation-name: service;
+    /* animation-name: service; */
     /* animation-iteration-count: 1; */
     animation-duration: 2s;
 }
 
-@keyframes service {
+/* @keyframes service {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-}
+} */
 
 .display-1>.mbr-iconfont {
     font-size: 5.75rem;
@@ -68,19 +68,19 @@ body {
     line-height: 1.4;
     color: #196478;
     text-align: left;
-    animation-name: serv;
+    /* animation-name: serv; */
     /* animation-iteration-count: 1; */
     animation-duration: 3s;
 }
 
-@keyframes serv {
+/* @keyframes serv {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-}
+} */
 
 .display-7>.mbr-iconfont {
     font-size: 1.5rem;
