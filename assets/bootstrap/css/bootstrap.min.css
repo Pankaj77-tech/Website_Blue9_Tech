@@ -6232,7 +6232,7 @@ fieldset:disabled .btn {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 .carousel-inner::after {
@@ -6352,7 +6352,7 @@ fieldset:disabled .btn {
     height: 2rem;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100% 100%
+    background-size: 100% 100%;
 }
 
 .carousel-control-prev-icon {
