@@ -770,6 +770,16 @@ a:hover {
     background: black;
     opacity: 0.7;
     border-radius: 36px;
+    animation: back;
+    animation-duration: 3s;
+}
+@keyframes back {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 767px) {
