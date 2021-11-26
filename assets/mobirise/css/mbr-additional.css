@@ -741,8 +741,43 @@ a:hover {
 }
 
 .cid-sOgiMle6An .row {
-    justify-content: center;
+    justify-content:center;
 }
+.cid-sPRhFAH3yY {
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
+    background: #fafafa;
+  }
+  .cid-sPRhFAH3yY .team-card {
+    /* margin-bottom: 2rem; */
+    transition: all 0.3s;
+  }
+  .cid-sPRhFAH3yY .team-card:hover {
+    transform: translateY(-10px);
+  }
+  .cid-sPRhFAH3yY .card-wrape {
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  /* @media (max-width: 991px) {
+    .cid-sPRhFAH3yY .card-wrape {
+      margin-bottom: 2rem;
+    }
+  } */
+  .cid-sPRhFAH3yY .card-wrape .image-wrap img {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .cid-sPRhFAH3yY .card-wrape .content-wrap {
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .cid-sPRhFAH3yY .card-wrape .content-wrap {
+      padding: 1rem;
+    }
+  }
+  
 
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
