@@ -55,7 +55,7 @@ body {
 
 .display-5 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 1.5;
 }
 
@@ -773,6 +773,7 @@ a:hover {
     animation: back;
     animation-duration: 3s;
 }
+
 @keyframes back {
     0% {
         opacity: 0;
