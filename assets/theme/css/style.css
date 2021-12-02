@@ -83,7 +83,7 @@ a {
 
 b,
 strong {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 input:-webkit-autofill,
