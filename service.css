@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background: white;
+    width: 310px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+}
+
+.cards-image {
+    /* background-color: aqua; */
+    /* height: 50px; */
+    margin-left: 22%;
+    margin-right: 80px;
+    /* padding-top: 20px; */
+    margin-top: 15px;
+}
+
+
+/* .car-1 {
+    background-image: url(/assets/img/website-images/analytics.jpg);
+}
+
+.car-2 {
+    background-image: url(/assets/img/website-images/application.jpg);
+}
+
+.car-3 {
+    background-image: url(/assets/img/website-images/bps.JPG);
+}
+
+.car-4 {
+    background-image: url(/assets/img/website-images/security-11.jpg);
+}
+
+.car-5 {
+    background-image: url(/assets/img/website-images/Consulting-2.jpeg);
+}
+
+.car-6 {
+    background-image: url(/assets/img/website-images/enterprise\ nd\ cloud.jpg);
+} */
+
+.cards h2 {
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.cards p {
+    padding: 10px;
+    text-align: center;
+    color: #727272;
+}
+
+.cards a {
+    /* background-color: black; */
+    color: 161BE2;
+    padding: 5px 5px;
+    display: block;
+    text-align: center;
+    margin: 20px 10px;
+    text-decoration: none;
+    color: #1920e0;
+    /* border-radius: 15px; */
+}
+
+.cards:hover {
+    background-color: white;
+    color: darkblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

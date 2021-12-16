@@ -8,13 +8,13 @@ body {
     font-family: poppins;
     margin: 0;
     display: grid;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 header p {
     padding: 50px;
     text-align: center;
-    color: #bebebe;
+    color: #fff;
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 700;
@@ -25,7 +25,7 @@ header p {
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
-    background-color: #323F4F;
+    background-image: linear-gradient(to right, #ad80cf, #6f58d4);
 }
 
 .footer>* {
@@ -49,7 +49,7 @@ h2 {
 .footer ul {
     list-style: none;
     /* padding-left: 0; */
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
 }
 
 .footer li {

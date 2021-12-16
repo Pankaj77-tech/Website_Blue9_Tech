@@ -1,0 +1,32 @@
+.wrappers {
+    width: 99vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    width: 900px;
+    height: 140px;
+    /* position: relative; */
+    background: white;
+    /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.slide img {
+    height: 70px;
+    padding: 30px 30px 30px 30px;
+}
+
+.h1 {
+    text-align: center;
+}
