@@ -8,8 +8,24 @@
         font-family: 'Poppins', sans-serif;
     }
     
-    .wrapper {
+    .scrolling-active {
         background-color: #fff;
+        box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    }
+    
+    .scrolling-active .wrapper {
+        height: 6.6rem;
+    }
+    
+    .scrolling-active .wrapper a {
+        color: darkblue;
+    }
+    /* .scrolling-active .desktop-link::after {
+        background-color: #313131;
+    } */
+    
+    .wrapper {
+        /* background-color: aqua; */
         position: fixed;
         width: 100%;
         z-index: 1;
@@ -18,7 +34,7 @@
     .wrapper nav {
         position: relative;
         display: flex;
-        margin: 5px;
+        /* margin: 5px; */
         height: 70px;
         align-items: center;
         justify-content: space-between;

@@ -51,6 +51,13 @@
 </head>
 
 <body>
+    <script>
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('nav');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
     <div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
@@ -91,8 +98,8 @@
 
                         </ul>
                     </li>
-                    <li><a href="Contact.html" style="color: #000000;">CONTACT</a></li>
-                    <li> <a href="#" id="globe" class="desktop-link" style="color: #000000;"><i class="fa fa-globe"></i></a>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li> <a href="#" id="globe" class="desktop-link"><i class="fa fa-globe"></i></a>
                         <input type="checkbox" id="show-World">
                         <label for="show-World"><i class="fa fa-globe"></i></label>
                         <ul>
@@ -114,7 +121,7 @@
         </nav>
     </div>
 
-    <section data-bs-version="5.1" class="features15 cid-sRrRnwpTjz" id="features16-2l" style="background: url(/assets/img/website-images/shape.png)">
+    <section data-bs-version="5.1" class="features15 cid-sRrRnwpTjz" id="features16-2l" style="background: url(/assets/img/website-images/background-final.png)">
 
 
 
@@ -441,13 +448,13 @@
         </div>
         <div class="cards ">
             <div class="cards-image "> <img src="/assets/img/website-images/Application-3.png " alt=" "></div>
-            <h2 style="font-weight: 700;font-size:15px; padding-top: 30px; ">Application</h2>
-            <p style="font-size:13px ">Shift your IT spend from legacy to Cutting edge. Modern applications deliver the experience customers want and the results you need. Blue9 Technologies can help you accelerate to a secure, digital, data-driven enterprise.</p>
+            <h2 style="font-weight: 700;font-size:15px; padding-top: 65px; ">Application</h2>
+            <p style="font-size:13px; margin-top:10px ">Shift your IT spend from legacy to Cutting edge. Modern applications deliver the experience customers want and the results you need. Blue9 Technologies can help you accelerate to a secure, digital, data-driven enterprise.</p>
             <a href="applications.html ">Read more</a>
         </div>
         <div class="cards ">
             <div class="cards-image "> <img src="/assets/img/website-images/BPS-3.png " alt=" "></div>
-            <h2 style="font-weight: 700;font-size:15px; padding-top: 30px; ">Business Process Service</h2>
+            <h2 style="font-weight: 700;font-size:15px; padding-top: 10px; ">Business Process Service</h2>
             <p style="font-size:13px ">Improve customer experience, optimize processes and reduce costs and time to market. Blue9 Technologies can help manage your business processes from front to back, freeing you to focus on what’s next.</p>
             <a href="Business-process-service.html ">Read more</a>
         </div>
@@ -457,7 +464,7 @@
     <section class="containers " style="margin-bottom: 80px; ">
         <div class="cards ">
             <div class="cards-image "> <img src="/assets/img/website-images/security-3.png " alt=" "></i></div>
-            <h2 style="font-weight: 700;font-size:15px; padding-top: 30px; ">Security</h2>
+            <h2 style="font-weight: 700;font-size:15px; padding-top: 82px; ">Security</h2>
             <p style=" font-size:13px; ">Cyber security isn’t only about IT. It’s about expanding beyond organizational walls into operations and products. Blue9 can help you stay ahead of adversaries by building resilience into your environment and becoming secure to the core.</p>
             <a href="Security.html " ">Read more</a>
                     </div>
@@ -471,9 +478,8 @@
                     <div class="cards ">
                         <div class="cards-image "> <img src="/assets/img/website-images/cloud.png " alt=" "></i>
                         </div>
-                        <h2 style="font-weight: 700;font-size:15px; padding-top: 30px; ">Analytics Enterprise & Cloud</h2>
-                        <p style="font-size:13px; ">Realize your business potential through your applications and digital capabilities. Blue9's strategic framework helps you simplify and transform applications, standardize platforms, digitize business models and automate operations
-                            to improve services.
+                        <h2 style="font-weight: 700;font-size:15px; padding-top:54px; ">Analytics Enterprise & Cloud</h2>
+                        <p style="font-size:13px; text-align:center ">Realize your business potential through your applications and digital capabilities. Blue9's strategic framework helps you simplify and transform applications.
                         </p>
                         <a href="Analytics Enterprise & Cloud Apps.html">Read more</a>
                     </div>
