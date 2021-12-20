@@ -42,6 +42,13 @@
 </head>
 
 <body>
+    <script>
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('nav');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
     <div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
@@ -54,26 +61,16 @@
                 </div>
                 <ul class="links">
 
-                    <li> <a href="" class="desktop-link">ABOUT</a>
+                    <li> <a href="index.html" class="desktop-link">HOME</a>
                         <input type="checkbox" id="show-About">
-                        <label for="show-About">About</label>
-                        <!-- <ul>
-                            <li><a href="#">About 1</a></li>
-                            <li><a href="#">About 2</a></li>
-                            <li><a href="#">About 3</a></li>
-                            <li><a href="#">About 4</a></li>
-                        </ul> -->
+                        <label for="show-About">Home</label>
+
                     </li>
                     <li>
-                        <a href="features.html" class="desktop-link">FEATURES</a>
+                        <a href="about.html" class="desktop-link">ABOUT US</a>
                         <input type="checkbox" id="show-features">
-                        <label for="show-features">Features</label>
-                        <!-- <ul>
-                            <li><a href="#">Features 1</a></li>
-                            <li><a href="#">Features 2</a></li>
-                            <li><a href="#">Features 3</a></li>
-                            <li><a href="#">Features 4</a></li>
-                        </ul> -->
+                        <label for="show-features">About</label>
+
                     </li>
                     <li>
                         <a href="" class="desktop-link">SERVICES</a>
@@ -119,20 +116,16 @@
 
 
 
-        <div class="mbr-overlay" style="opacity: 0.3; background-image: url(assets/img/images-service/security\ BGI.jpg);">
+        <div class="mbr-overlay" style=" background-image: url(assets/img/website-images/security-final-bg.jpg);">
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="card col-12 col-md-12 col-lg-9" style="    margin-bottom: 70px; margin-top: 120px">
+                <div class="card col-12 col-md-12 col-lg-9">
                     <div class="card-wrapper" data-aos="flip-right">
                         <div class="card-box align-center">
                             <h1 class="card-title mbr-fonts-style mb-3 display-1">
                                 <strong style="font-size:40px; color:white;">Security</strong></h1>
-                            <p class="mbr-text mbr-fonts-style display-7" data-aos="zoom-in-up" style="color:white;">Cyber security isn’t only about IT. It’s about expanding beyond organizational walls into operations and products. Blue9 can help you stay ahead of adversaries by building resilience into your environment and becoming secure
-                                to the core.
 
-                            </p>
-                            <!-- <div class="mbr-section-btn mt-3"><a class="btn btn-secondary-outline display-4" href="https://mobiri.se">Start Now &gt;</a></div> -->
                         </div>
                     </div>
                 </div>
@@ -141,18 +134,40 @@
     </section>
 
     <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
-        <a href="https://mobirise.site/e" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
+        <a href="" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
+    </section>
+
+    <section data-bs-version="5.1" class="content4 cid-sOOqoTPBMd" id="content4-l">
+
+
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="title col-md-12 col-lg-10 ">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-7 " style="margin-top:10px; font-size:30px;color: #1920E0 ">
+                        <strong>Services and Solutions</strong>
+                    </h3>
+                    <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7 " style="font-size: 15px; color:#3D3D3D;">
+                        Blue9 Technologies advises, develops and implements modern Security Solutions and AI solutions by applying industry expertise, technology and services, proven methodologies, and experienced people. With our offerings, capabilities, and global reach, organizations
+                        accelerate digital transformation and confidently produce repeatable, AI-powered business outcomes.
+                    </h4>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex; ">
+
     </section>
 
 
-    <!-- <section data-bs-version="5.1 " class="header11 cid-sNumSLy0HR " id="header11-4 "> -->
+
 
 
 
     <div class="containers">
         <div class="blog-post" data-aos="flip-right">
             <div class="blog-post_img">
-                <img src="/assets/img/website-images/gover-sqaure.jpg" alt="" />
+                <img src="/assets/img/website-images/cyber defence-final.png" alt="" />
             </div>
             <div class="blog-post_info">
                 <!-- <div class="blog-post_date">
@@ -175,7 +190,7 @@
     <div class="containers">
         <div class="blog-post" data-aos="flip-right">
             <div class="blog-post_img">
-                <img src="/assets/img/website-images/data-square.jpg" alt="" />
+                <img src="/assets/img/website-images/digital identity-final.png" alt="" />
             </div>
             <div class="blog-post_info">
                 <!-- <div class="blog-post_date">
@@ -190,7 +205,7 @@
                     compliance and trusted relationships between people, services and connected devices.
 
                 </p>
-                <!-- <a href="#" class="blog-post_cta">Read more</a> -->
+
             </div>
         </div>
     </div>
@@ -198,7 +213,7 @@
     <div class="containers">
         <div class="blog-post" data-aos="flip-right">
             <div class="blog-post_img">
-                <img src="/assets/img/website-images/analytics-square.jpg" alt="" />
+                <img src="/assets/img/website-images/data protection-final.png" alt="" />
             </div>
             <div class="blog-post_info">
                 <!-- <div class="blog-post_date">
@@ -222,7 +237,7 @@
     <div class="containers">
         <div class="blog-post" data-aos="flip-right" style="margin-bottom:  100px">
             <div class="blog-post_img">
-                <img src="/assets/img/website-images/mod app square.jpg" alt="" />
+                <img src="/assets/img/website-images/secured infrastructure-final.png" alt="" />
             </div>
             <div class="blog-post_info">
                 <!-- <div class="blog-post_date">
@@ -247,29 +262,29 @@
 
 
 
-    <section data-bs-version="5.1" class="features16 cid-sRsPGFsRKS" id="features17-2n">
+    <section data-bs-version="5.1 " class="features16 cid-sRsPGFsRKS " id="features17-2n " style="background:url(/assets/img/website-images/Oval1.png) ">
 
 
 
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-6">
-                        <div class="image-wrapper">
-                            <img src="assets/img/website-images/partners-about-us-no-grid.jpeg" alt="Mobirise">
+        <div class="container ">
+            <div class="content-wrapper ">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-lg-6 ">
+                        <div class="image-wrapper ">
+                            <img src="assets/img/website-images/logoo.png " alt=" ">
                         </div>
                     </div>
-                    <div class="col-12 col-lg">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style display-7">
-                                <strong style=" font-size: 30px; font-weight: bold ; line-height:30px">Partnering for business transformation</strong>
+                    <div class="col-12 col-lg ">
+                        <div class="text-wrapper ">
+                            <h6 class="card-title mbr-fonts-style display-7 ">
+                                <strong style=" font-size: 35px; font-weight: bold ; line-height:35px;color: #1920e0; ">Partnering for business transformation</strong>
                             </h6>
                             <br>
-                            <p class="mbr-text mbr-fonts-style mb-4 display-7" style="font-size:15px">
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7 " style="font-size:17px;color:#727272">
                                 The Blue9 Partner Network is a well selected ecosystem of partners and relationships built on a foundation of collaboration, differentiation and innovation. Together, we work to deliver the right solution and the right team to address the complex, critical
                                 business challenges faced by customers.</p>
-                            <!-- <div class="mbr-section-btn mt-3">
-                            <a class="btn btn-primary display-4" href="https://mobiri.se">
+                            <!-- <div class="mbr-section-btn mt-3 ">
+                            <a class="btn btn-primary display-4 " href="https://mobiri.se ">
                                 Learn more
                             </a>
                         </div> -->
@@ -279,17 +294,17 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
-        <!-- <a href="https://mobirise.site/w" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a> -->
-        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">
-            <!-- <a href="https://mobirise.site" style="color:#aaa;">mobirise.com</a> -->
-            html website maker</p>
+    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex; ">
+        <!-- <a href="https://mobirise.site/w " style="flex: 1 1; height: 3rem; padding-left: 1rem; "></a> -->
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem; ">
+            <a href="https://mobirise.site " style="color:#aaa; "></a>
+        </p>
     </section>
 
     <footer class="footer ">
         <div class="r-footer ">
             <h5>
-                <img src="assets/img/images/favicon.png ">
+                <img src="assets/img/website-images/b9 logo-min--final png.png ">
             </h5>
             <p style="line-height :20px; ">
                 <br> As the leading end-to-end IT services and solutions company, Blue9 Technologies, revolutionize IT Services for clients by modernizing and integrating their mainstream IT, and by deploying digital solutions at a scale to produce better
@@ -328,22 +343,7 @@
 
             </li>
         </ul>
-        <ul class="r-footer ">
-            <li class="features ">
-                <h2 style="color:white; margin-left: 30px; ">
-                    <b style="font-size:25px ">Industries</b>
-                </h2>
-                <ul class="box " style="list-style: outside; ">
-                    <li><a href="# ">Healthcare</a></li>
-                    <li><a href="# ">Media & Technology</a></li>
-                    <li><a href="# ">Consumer & Retail</a></li>
-                    <li><a href="# ">Industrial Manufacturing</a></li>
-                    <li><a href="# ">Travel, Logistics & Hospitality</a></li>
-                    <li><a href="# ">Banking & Capital Markets</a></li>
 
-                </ul>
-            </li>
-        </ul>
         <ul class="r-footer ">
 
 
