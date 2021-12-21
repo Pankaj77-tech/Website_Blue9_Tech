@@ -25,6 +25,10 @@
         background-color: #F4F4F4;
     }
     
+    .scrolling-active .content .links li a:hover {
+        color: white;
+    }
+    
     .wrapper {
         /* background-color: aqua; */
         position: fixed;
@@ -96,7 +100,7 @@
     
     .content .links li a:hover,
     .content .links li label:hover {
-        background: #fff;
+        background: darkblue;
         /* color: #fff; */
     }
     
