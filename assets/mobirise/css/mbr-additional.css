@@ -34,7 +34,7 @@ body {
 
 .display-4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: #196478;
 }
@@ -119,7 +119,7 @@ body {
 
 .btn {
     padding: 0.6rem 1.2rem;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .btn-sm {
@@ -259,10 +259,11 @@ body {
 
 .btn-warning,
 .btn-warning:active {
-    background: linear-gradient(to bottom, #FF3C73 0%, #FF6F33 100%);
+    /* background: linear-gradient(to bottom, #FF3C73 0%, #FF6F33 100%); */
+    background-image: linear-gradient(to right, #FF3C73 0%, #FF6F33 100%);
     border-color: #ffe161 !important;
-    color: #614f00 !important;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: #fff !important;
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .btn-warning:hover,
@@ -270,8 +271,8 @@ body {
 .btn-warning.focus,
 .btn-warning.active {
     color: #0a0800 !important;
-    background-color: #ffd10a !important;
-    border-color: #ffd10a !important;
+    /* background-color: #ffd10a !important; */
+    /* border-color: #ffd10a !important; */
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 

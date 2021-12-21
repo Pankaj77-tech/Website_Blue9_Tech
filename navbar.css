@@ -96,7 +96,7 @@
     
     .content .links li a:hover,
     .content .links li label:hover {
-        background: #323c4e;
+        background: #fff;
         /* color: #fff; */
     }
     
@@ -534,6 +534,7 @@
     }
     
     .statistics {
+        /* background-image: url(/assets/img/website-images/wave-2.png) no-repeat; */
         background: url(/assets/img/website-images/wave-2.png) no-repeat;
         background-size: 100%;
         /* background-position-y: 0; */
